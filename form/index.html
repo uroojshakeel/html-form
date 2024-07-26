@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisration Form</title>
+</head>
+<body>
+      
+<center><h1><i><u>Grade Vollyball Regisration Form</u></i></h1></center>
+
+<form>
+ <fieldset >
+<legend align="center"><h2><b><u>Personal Details</u></b></h2></legend>
+
+<p><label><b>Participent Name</b></label>
+<input type="name"size="30"placeholder="First">
+<input type="name"size="30"placeholder="Last"><br/></p>
+
+<p><label><b>Parent Name</b></label>
+ <input type="name"size="30"placeholder="First">
+
+ <label><b>Emergency Contact:</b></label>
+ <input type="number"size="30"placeholder="ENTER"><br/></p>
+ <p><label><b>B.Form:</b></label>
+ <input type="b.form number"size="30"placeholder="ENTER">
+
+<label><b> E.Mail Address:</b></label>
+ <input type="email"size="30"placeholder="email"><br/></p>
+
+ <label><b> Passoword:</b></label>
+ <input type="password"size="30"placeholder="password"><br/></p>
+
+<p><label><b>DOB:</b></label>
+<input type="date"size="30"placeholder="ENTER">
+
+<label><b>Age:</b></label>
+<input type="number"size="30"placeholder="ENTER"><br/></p>
+   
+<p><label><b>Gender:</b></label>
+<input id="female" type="radio"name="gender" value="f">
+<label for="Female">Female</label>
+<input id="Male" type="radio"name="gender" value="m">
+<label for="Male">Male</label>
+
+<label><b>Shirt Size</b></label>
+<select name="size">
+<option value="Small">Small</option>
+<option value="Medium">Medium</option>
+<option value="Large">Large</option>
+</select> </p>
+        
+</fieldset>
+<fieldset>
+<legend align="center"><h2><b><u>Educational Details</u></b></h2></legend>
+
+<p><label><b>Qualification:</b></label>
+ <input type="checkbox"name="Matric" 
+ value="Matric" /> Matric
+<input type="checkbox" name="Intermediate" 
+ value="Intermediate" /> Intermediate
+<input type="checkbox" name="Becholar" 
+value="Becholar" /> Becholar
+
+ <label> <b> School Name:</b></label>
+<input type="name"size="30"placeholder="ENTER"><br/></p>
+
+<p><label> <b> School District:</b></label>
+<input type="name"size="30"placeholder="ENTER">
+<label> <b> Passing Year:</b></label>
+<input type="number"size="30"placeholder="ENTER">
+
+</fieldset>
+<fieldset>
+ <legend align="center"><h2><b><u>Vollyball Experience</u></b></h2></legend>
+
+<p><label><b>Have you any Vollyball Experience:</b></label></p>
+<input id="Yes" type="radio"name="Have you any Vollyball Experience" value="Y">
+<label for="Yes">Yes</label>
+<input id="No" type="radio"name="Have you any Vollyball Experience" value="N">
+<label for="No">NO</label>
+
+<p><label><b>Experience Level:</b></label>
+<input type="checkbox"name="Bigginner" 
+value="Bigginner" /> Bigginner
+<input type="checkbox" name="Intermediate" 
+ value="Intermediate" /> Intermediate
+<input type="checkbox" name="Advanced" 
+ value="Advanced " /> Advanced       
+  
+ <label><p>Describe Your Experience</p></label>
+ <textarea name="comments" cols="20" rows="4">Experience...</textarea>
+
+</fieldset><br/>
+
+<center><input type="button" name= "Submit"value="Submit"/></center>
+
+</form>    
+</body>
+</html>
